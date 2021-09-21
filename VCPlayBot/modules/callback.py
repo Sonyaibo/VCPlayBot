@@ -21,7 +21,7 @@ async def cbstart(_, query: CallbackQuery):
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "➕ Add me to your Group ➕", url=f"https://t.me/Group_Music_Plus_Bot?startgroup=true")
                 ],[
                     InlineKeyboardButton(
                         "❓ How to use Me", callback_data="cbhowtouse")
@@ -30,13 +30,13 @@ async def cbstart(_, query: CallbackQuery):
                          "📚 Commands", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "💝 Donate", url=f"https://t.me/{OWNER_NAME}")
+                        "🙎 My God", url=f"https://t.me/@Its_me_Awesome_Sarkar")
                 ],[
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "👥 Official Group", url=f"https://t.me/Avengers_Fan_Chatting_Group"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
+                        "📣 Official Channel", url=f"https://t.me/Soniaibo_Robot_Update_Channel")
                 ],[
                     InlineKeyboardButton(
                         "🧪 Source Code 🧪", url="https://github.com/QuennArzoo/VCPlayBot"
