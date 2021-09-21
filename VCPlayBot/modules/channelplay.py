@@ -106,10 +106,10 @@ def r_ply(type_):
     mar = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("⏹", "cleave"),
-                InlineKeyboardButton("⏸", "cpuse"),
-                InlineKeyboardButton("▶️", "cresume"),
-                InlineKeyboardButton("⏭", "cskip"),
+                InlineKeyboardButton("🎧", "cleave"),
+                InlineKeyboardButton("🎧", "cpuse"),
+                InlineKeyboardButton("🎧", "cresume"),
+                InlineKeyboardButton("🎧", "cskip"),
             ],
             [
                 InlineKeyboardButton("Playlist 📖", "cplaylist"),
